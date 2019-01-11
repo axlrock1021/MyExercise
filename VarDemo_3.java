@@ -5,7 +5,7 @@ package tw.com.axlrock1021;
  * @version 1.0
  * @date 2019年1月11日 下午8:51:37
  */
-public class VarDemo {
+public class VarDemo_3 {
 
 	public static void main(String[] args) {
 		
