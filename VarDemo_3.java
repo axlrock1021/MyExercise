@@ -1,6 +1,6 @@
 package tw.com.axlrock1021;
 /**
- * 定義變數，並且輸出
+ * 定義變數，增加printf(格式化輸出)
  * @author Andy
  * @version 1.0
  * @date 2019年1月11日 下午8:51:37
@@ -21,5 +21,9 @@ public class VarDemo_3 {
 		System.out.println("姓名 : " + name);
 		System.out.println("人物屬性值 :");
 		System.out.println("生命值 : " + hp +"\t" + "攻擊力 : " + atk + "\t" + "防禦力 : " + def);
+		
+		//利用printf(格式化輸出)
+		System.out.printf("生命值 : %d\t" + "攻擊力 : %.2f\t防禦力 : %.2f",hp,atk,def);
+		//%d(整數)、%f(浮點數).2(取小數點第二位)
 	}
 }
